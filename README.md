@@ -11,8 +11,25 @@ about the project is available [here](https://sites.google.com/site/musicaudiohp
 
 ## How to use
 
-The project can be built with ant. There is also project information for NetBeans included,
-though this is not necessary to build.
+This software requires [Java](java.com/download) to run.
+Your computer also needs to have a microphone.
+
+A binary distribution is available [here](https://github.com/michaelbrooks/music-visualization/releases) 
+if you don't want to build it yourself.
+Download the `music-visualization-dist.zip` file and extract the contents.
+Inside the folder, run `java -jar music-visualization.jar` or
+double-click on the jar file.
+
+A small screen will appear allowing you to choose from among several different visualizations.
+You may also pause/resume and exit the program from this screen.
+
+A timestamped wav file will be created in the current directory. Once the program is closed,
+this will contain the audio recorded while the program was running.
+
+If you do want to build the project, 
+you can use ant (just run `ant` in the cloned repository directory).
+There is also project information for [NetBeans](https://netbeans.org/) included,
+though this is optional.
 
 To run the compiled program:
 
@@ -20,12 +37,6 @@ To run the compiled program:
 cd dist
 java -jar music-visualization.jar
 ```
-
-A small screen will appear allowing you to choose from among several different visualizations.
-You may also pause/resume and exit the program from this screen.
-
-A timestamped wav file will be created in the current directory. Once the program is closed,
-this will contain the audio recorded while the program was running.
 
 ## Credits
 
