@@ -9,6 +9,10 @@ by providing a source of real-time feedback as they practice, through (hopefully
 and intuitive visualizations of features such as pitch, loudness, and tone. More information 
 about the project is available [here](https://sites.google.com/site/musicaudiohp).
 
+A screenshot of the final prototype:
+
+<img src="https://cloud.githubusercontent.com/assets/1330400/9947202/32f29022-5d4d-11e5-932a-4b5fede6027b.png" width=450/>
+
 ## How to use
 
 This software requires [Java](java.com/download) to run.
